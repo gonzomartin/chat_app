@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">    
     <title>Chat</title>
 </head>
@@ -13,11 +15,11 @@
 
     <main id="app">
         <section>
-            <h2>Input messages here:</h2>
+            <h2>Start your Chat here:</h2>
             <input id="nickname" v-model="nickname" type="text" placeholder="Nickname?">
             
             <form>
-                <label for="message">Something to say?</label>
+                <label for="message" class="something">Something to say?</label>
                 <textarea @focus="catchTextFocus" v-model="message" id="textarea" class="message" autocomplete="off"></textarea>
                 <input @click.prevent="dispatchMessage" type="submit" value="Send">
             </form>
