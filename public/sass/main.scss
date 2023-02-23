@@ -5,11 +5,12 @@
 
 // write some defaults here
 body {
-    font-size: 16px;
-    background-color: #333;
-    color: white;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: rgb(44, 44, 44);
+
+    font-family: 'Inter', sans-serif;
 }
 
 main { 
@@ -17,3 +18,14 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
 }
+
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+

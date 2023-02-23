@@ -1,0 +1,68 @@
+main section { padding: 1em; }
+
+main h2 {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+#main-headline { 
+    padding-left: 0.5em;
+    font-weight: 800;
+    text-align: left; 
+    margin-bottom: 0.2em;
+    margin-top: 0.8em;
+}
+
+label { display: block; padding-bottom: 0.5em;}
+
+textarea { 
+    width: 90%; 
+    height: 200px; 
+    border-radius: 0.25em; 
+    resize: none; 
+    background-color: cornsilk;
+    padding: 0.5em 1em;
+
+}
+.something {
+    font-size: 12px;
+}
+
+input[type="submit"] { 
+    display: block; 
+    margin-top: 1em; 
+    width: 90%; 
+    height: 30px; 
+    border-radius: 0.25em; 
+    background-color: aquamarine;
+}
+
+input[type="submit"]:hover { 
+    background-color: rgba(127, 255, 212, 0.644);
+}
+
+#nickname { 
+    background-color: cornsilk;
+    color: rgb(32, 32, 32);
+    width: 90%;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    margin: 0.5em 0 1em 0; 
+}
+
+.messages h2 { margin-bottom: 0.1em; }
+
+
+.chat-messages {
+    width: 45%;
+    border-radius: 0.25em;
+    padding: 0.5em;
+    background-color: cornsilk;
+    float: left;
+    clear: both;
+}
+
+.other-messages {
+    background-color: rgba(106, 255, 186, 0.8);
+    float: right;
+}
